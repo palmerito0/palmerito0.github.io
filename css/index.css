@@ -18,36 +18,34 @@ p {
 	color: white;
 	margin-top: 10px;
 	overflow: hidden;
-	height: 25px;
+	height: 40px;
 }
 .title {
-	font-size: 12px;
+	font-size: 20px;
 	margin: 0;
-	padding-top: 5px;
-	padding-bottom: 5px;
-	padding-left: 2px;
+	padding: 0;
+	padding-left: 5px;
 	display: inline-block;
 	text-align: left;
-	width: 100px;
 	float: left;
+	line-height: 40px;
 }
 .navbar {
 	list-style-type: none;
-	width: 180px;
 	margin: 0;
 	padding:0;
 	display: inline-block;
 	float: right;
 	text-align: center;
+	width: 240px;
 } 
 .navlink {
 	display: inline-block;
 	float: right;
 	text-decoration: none;
-	font-size: 12px;
-	width: 60px;
-	height: 25px;
-	line-height: 25px;
+	font-size: 15px;
+	width: 80px;
+	line-height: 40px;
 	color: white;
 }
 .navlink:hover {
