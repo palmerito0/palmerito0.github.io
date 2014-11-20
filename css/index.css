@@ -1,9 +1,9 @@
 body {
 	text-align: center;
-	background-image: url(../images/background.png);
+	background-image: url(../images/congruent_outline.png);
 	margin: 0;
 	font-family: "Arial", sans-serif;
-	color: black;
+	color: white;
 }
 p {
 	font-size: 13px;
@@ -14,7 +14,7 @@ p {
 }
 .topBar {
 	width: 100%;
-	background-color: black;
+	background-color: #2193DF;
 	color: white;
 	margin-top: 10px;
 	overflow: hidden;
@@ -49,5 +49,5 @@ p {
 	color: white;
 }
 .navlink:hover {
-	background-color: gray; 
+	background-color: #4EB5F9; 
 }
