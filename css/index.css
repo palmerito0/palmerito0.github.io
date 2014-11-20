@@ -5,8 +5,11 @@ body {
 	font-family: "Arial", sans-serif;
 	color: white;
 }
+h1 {
+	font-size: 50px;
+}
 p {
-	font-size: 13px;
+	font-size: 20px;
 }
 .copyright {
 	font-style: italic;
@@ -25,10 +28,16 @@ p {
 	margin: 0;
 	padding: 0;
 	padding-left: 5px;
+	padding-right: 5px;
 	display: inline-block;
 	text-align: left;
 	float: left;
 	line-height: 40px;
+	text-decoration: none;
+	color: white;
+}
+.title:hover {
+	background-color: #4EB5F9; 
 }
 .navbar {
 	list-style-type: none;
