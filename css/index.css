@@ -11,6 +11,9 @@ h1 {
 p {
 	font-size: 20px;
 }
+article {
+	width: 80%;
+}
 .copyright {
 	font-style: italic;
 	font-size: 10px;
