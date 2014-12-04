@@ -1,0 +1,14 @@
+article {
+	width: 80%;
+}
+.project {
+	background-color: white;
+	color: white;
+	margin-bottom: 20px;
+}
+.projectIMG {
+	display: inline-block;
+	width: 50%;
+	height: 100%;
+	padding: 10px;
+}
