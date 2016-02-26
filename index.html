@@ -22,6 +22,7 @@
     <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
     
     <link rel="stylesheet" href="css/index.css" type="text/css" />
+    <script src="js/twilio.js"></script>
   </head>
   <body>
     <!-- Navbar
@@ -49,35 +50,49 @@
   
     <div class="container-fluid section">
       <div class="col-xs-12">
-        <h2>So, who am I?</h2>
+        <h2>I am a...</h2>
       </div>
       <div class="col-xs-12 col-md-4">
-        <h3>A Programmer</h3>
+        <h3>Programmer</h3>
+        <div class="title-line"></div>
+        <p>
+          When I was a small child, computers absolutely fascinated me. So many different programs, games,
+          and tools were available to enhance everything I did. This fascination has continued ever since,
+          leading me to understand and learn how to make those same pieces of software that I used to be a mere user of.
+        </p>
+      </div>
+      <div class="col-xs-12 col-md-4">
+        <h3>Student</h3>
         <div class="title-line"></div>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse consequat elementum velit, eu efficitur urna lobortis in. Mauris pretium ipsum ante, et laoreet leo dignissim ut. Fusce sagittis odio porta nibh iaculis hendrerit. Praesent blandit tellus vitae libero dictum, vel.
         </p>
       </div>
       <div class="col-xs-12 col-md-4">
-        <h3>A Student</h3>
-        <div class="title-line"></div>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse consequat elementum velit, eu efficitur urna lobortis in. Mauris pretium ipsum ante, et laoreet leo dignissim ut. Fusce sagittis odio porta nibh iaculis hendrerit. Praesent blandit tellus vitae libero dictum, vel.
-        </p>
-      </div>
-      <div class="col-xs-12 col-md-4">
-        <h3>An Adventurer</h3>
+        <h3>Adventurer</h3>
         <div class="title-line"></div>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse consequat elementum velit, eu efficitur urna lobortis in. Mauris pretium ipsum ante, et laoreet leo dignissim ut. Fusce sagittis odio porta nibh iaculis hendrerit. Praesent blandit tellus vitae libero dictum, vel.
         </p>
       </div>
     </div>
+    <div class="container-fluid section">
+        <div class="col-xs-12">
+          <h2>John Cena Gram</h2>
+          <div class="title-line"></div>
+          <p>Wanna annoy your friends? Write their number here to send them a loop of John Cena's theme!</p>
+        </div>
+        <form>
+          <input type="text" placeholder="(XXX) XXX-XXXX" name="phoneNumber"/>
+          <input type="button" value="Send" onclick="twilio(this.form)"/>
+        </form>
+    </div>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
+    <script src="//bit.ly/twilio-basic-v7" sid="ACd0959ce3582c20277e5f20643aafb72c" token="18c43feecb6ebc5ad86c365263e2026d"></script>
     <script type="text/javascript" src="js/index.js"></script>
   </body>
 </html>
