@@ -8,7 +8,7 @@
     <title>palmerito0</title>
 
     <!-- Bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap/bootstrap.min.css" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -22,27 +22,11 @@
     <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
     
     <link rel="stylesheet" href="css/index.css" type="text/css" />
-    <script src="js/twilio.js"></script>
   </head>
   <body>
-    <!-- Navbar
-    <nav class="navbar navbar-inverse navbar-fixed-top">
-      <div class="container-fluid">
-        <div class="navbar-header">
-          <a class="navbar-brand" href="#">palmerito0</a>
-        </div>
-        
-        <ul class="nav navbar-nav navbar-links">
-          <li><a href="/games">Games</a></li>
-          <li><a href="/games">Projects</a></li>
-        </ul>
-      </div>
-    </nav>
-    -->
-    
     <div class="container-fluid landing">
       <div class="col-xs-12">
-        <img src="images/palmerito0.png" class="img-circle front-image"></img>
+        <img src="img/palmerito0.png" class="img-circle front-image"></img>
         <h1>palmerito0</h1>
         <h3>Aspiring game programmer and web designer.</h2>
       </div>
@@ -58,7 +42,7 @@
         <p>
           When I was a small child, computers absolutely fascinated me. So many different programs, games,
           and tools were available to enhance everything I did. This fascination has continued ever since,
-          leading me to understand and learn how to make those same pieces of software that I used to be a mere user of.
+          leading me to understand and learn how to make those same pieces of software that I used to be a user of.
         </p>
       </div>
       <div class="col-xs-12 col-md-4">
@@ -76,23 +60,32 @@
         </p>
       </div>
     </div>
+    
+    <!--
     <div class="container-fluid section">
-        <div class="col-xs-12">
-          <h2>John Cena Gram</h2>
-          <div class="title-line"></div>
-          <p>Wanna annoy your friends? Write their number here to send them a loop of John Cena's theme!</p>
-        </div>
-        <form>
-          <input type="text" placeholder="(XXX) XXX-XXXX" name="phoneNumber"/>
-          <input type="button" value="Send" onclick="twilio(this.form)"/>
+      <div class="col-xs-12">
+        <h2>John Cena Gram</h2>
+        <div class="title-line"></div>
+      </div>
+      <div class="col-xs-12">
+        <h4>Wanna annoy your friends? Write their number here to send them a loop of John Cena's theme!</h4>
+      </div>
+      <div class="col-xs-12">
+        <form class="form-inline">
+          <input type="text" placeholder="(XXX) XXX-XXXX" name="phoneNumber" class="form-control"/>
+          <input type="button" value="Send" onclick="twilio(this.form)" class="form-control btn btn-primary"/>
         </form>
+      </div>
+      -->
     </div>
+    
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/bootstrap.min.js"></script>
+    <script src="js/bootstrap/bootstrap.min.js"></script>
     <script src="//bit.ly/twilio-basic-v7" sid="ACd0959ce3582c20277e5f20643aafb72c" token="18c43feecb6ebc5ad86c365263e2026d"></script>
     <script type="text/javascript" src="js/index.js"></script>
+    <!-- <script src="js/twilio.js"></script> -->
   </body>
 </html>

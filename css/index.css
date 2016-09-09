@@ -58,7 +58,7 @@ html, body {
     min-height:100%;
     padding:40px 0;
     
-    background-image:url("../images/landing_background.jpg");
+    background-image:url("../img/landing_background.jpg");
     background-repeat:no-repeat;
     background-size: cover;
     background-position: center;
@@ -80,4 +80,8 @@ html, body {
     height:3px;
     background-color:#cccccc;
     margin: 10px auto;
+}
+
+form{
+    margin:15px auto;
 }
