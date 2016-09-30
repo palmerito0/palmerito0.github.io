@@ -58,7 +58,7 @@ html, body {
     min-height:100%;
     padding:40px 0;
     
-    background-image:url("../img/landing_background.jpg");
+    background-image:url("../assets/img/landing_background.jpg");
     background-repeat:no-repeat;
     background-size: cover;
     background-position: center;
@@ -85,7 +85,8 @@ html, body {
 form{
     margin:15px auto;
 }
-.easy {
+
+#easy {
     font-size: 80px;
     border-radius: 100%;
     border: none;
@@ -95,6 +96,7 @@ form{
     background-color: red;
     box-shadow: 0px 5px 5px grey;
 }
-.easy:active {
+
+#easy:active {
     box-shadow: 0px 3px 20px grey inset;
 }
