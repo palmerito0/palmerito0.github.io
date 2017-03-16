@@ -1,0 +1,74 @@
+html {
+	background-image: url(../images/congruent_outline.png);
+}
+body {
+	text-align: center;
+	margin: 0;
+	font-family: "Arial", sans-serif;
+	color: white;
+	font-size: 25px;
+}
+h1, h2, h3, h4, h5 {
+	text-align: center;
+}
+h1 {
+	font-size: 50px;
+}
+h3 {
+	font-size: 35px;
+}
+article {
+	width: 80%;
+	text-align: left;
+	margin-left: auto;
+	margin-right: auto;
+}
+.copyright {
+	font-style: italic;
+	font-size: 10px;
+}
+.topBar {
+	width: 100%;
+	background-color: #2193DF;
+	color: white;
+	margin-top: 10px;
+	overflow: hidden;
+	height: 40px;
+}
+.title {
+	font-size: 20px;
+	margin: 0;
+	padding: 0;
+	padding-left: 10px;
+	padding-right: 10px;
+	display: inline-block;
+	text-align: left;
+	float: left;
+	line-height: 40px;
+	text-decoration: none;
+	color: white;
+}
+.title:hover {
+	background-color: #4EB5F9; 
+}
+.navbar {
+	list-style-type: none;
+	margin: 0;
+	padding:0;
+	display: inline-block;
+	float: right;
+	text-align: center;
+	width: 160px;
+} 
+.navlink {
+	display: inline-block;
+	float: right;
+	text-decoration: none;
+	font-size: 15px;
+	width: 80px;
+	line-height: 40px;
+	color: white;
+}
+.navlink:hover {
+	background-color: #4EB5F9; 
+}
