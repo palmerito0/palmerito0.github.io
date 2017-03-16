@@ -6,11 +6,8 @@
         submit: $('#submitButton'),
         addAddress: $('#addAddress'),
         resultsTable: $('#resultsTable'),
-        resultsTableBody: $('#resultsTable trbody'),
         sortable: $('.sortable')
     };
-    
-    let geocoder = {};
     
     $(document).ready(() => { //Runs on page laod
         
@@ -22,8 +19,10 @@
     });
     
     elements.submit.click(() => {  //Find distance to each address and display when button is pressed
-        let promiseArray = [];
-        geocoder = new google.maps.Geocoder(); //Create geocoder and establish link to Geocoding API
+        let promiseArray = [],
+            geocoder = new google.maps.Geocoder(); //Create geocoder and establish link to Geocoding API
+        
+        elements.resultsTable.find('tbody tr').remove();
         
         elements.submit.addClass('is-loading');
         
