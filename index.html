@@ -1,62 +1,27 @@
 <!DOCTYPE html>
 <html>
-
-<head>
-    <title>Distance Finder</title>
-    <meta name="viewport" content="initial-scale=1.0">
+  <head>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.3.2/css/bulma.css" integrity="sha256-2W7D1+BaVS4IyQ/jHh9Z97iKyfTY0IdVP+GLoD8Zfi8=" crossorigin="anonymous" />
-    <link rel="stylesheet" href="css/distanceExample.css" type="text/css" />
-    <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
-    <script type="text/javascript" src="js/libraries/sorttable.js"></script>
-</head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Hello Bulma!</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.4/css/bulma.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+  </head>
+  <body>
 
-<body>
-    <section class="hero is-medium is-fullheight is-primary is-bold">
-        <div class="hero-body">
-            <div class="container">
-                <h1 class="title">
-                    Distance Finder
-                </h1>
-                <h3 class="subtitle">
-                    Uses' Google's Geocoding API to get the distance between a home address and a list of several other addresses, ordering results from nearest to farthest.
-                </h3>
-                <form>
-                    <div class="field">
-                        <div class="control is-expanded is-horizontal">
-                            <div class="control is-horizontal">
-                                <input class="input" type="text" id="homeAddress" placeholder="Home address" />
-                            </div>
-                        </div>
-                        <div class="control is-expanded" id="addresses">
-                            <div class="control">
-                                <input class="input" type="text" placeholder="Address to find" />
-                            </div>
-                        </div>
-                    </div>
-                    <br />
-                    <div class="control is-grouped">
-                        <a class="button is-info is-outlined is-large is-inverted is-fullwidth" id="addAddress">Add address</a>
-                        <a class="button is-primary is-outlined is-large is-inverted is-fullwidth" id="submitButton" style="margin-left: 15px">Submit</a>
-                    </div>
-                    <br/>
-                    <table class="table sortable" id="resultsTable">
-                        <thead>
-                            <tr>
-                                <th>Address</th>
-                                <th class="sorttable_numeric">Distance to address (km)</th>
-                            </tr>
-                        </thead>
-                        <tbody></tbody>
-                    </table>
-                </form>
-            </div>
-        </div>
-    </section>
-
-
-    <script src="js/distanceExample.js"></script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBySA2jCFQZuhOmhvnh4LyFwme34qDcdLo&amp;callback=connectedToAPI" async="" defer=""></script>
-</body>
-
+  
+  <section class="hero is-fullheight is-black">
+    <div class="hero-body">
+      <div class="container has-text-centered">
+        <h1 class="title">
+          Adrian Carretero
+        </h1>
+        <p class="subtitle">
+          First website with <strong>Bulma</strong>!
+        </p>
+      </div>
+      </div>
+  </section>
+  </body>
 </html>
