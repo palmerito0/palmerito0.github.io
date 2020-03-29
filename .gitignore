@@ -27,3 +27,8 @@ test/fixtures/**/.fbkpm
 .pnp
 /packages/lockfile/index.js
 .vscode/
+.sass-cache/
+*.css.map
+*.sass.map
+*.scss.map
+
